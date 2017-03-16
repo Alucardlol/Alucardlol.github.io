@@ -1,5 +1,5 @@
-var mas1 = prompt('первая строка: ', '').toLowerCase().split('').sort().join();
-var mas2 = prompt('вторая строка: ', '').toLowerCase().split('').sort().join();
+var mas1 = prompt('первая строка: ', 0).toLowerCase().split('').sort().join();
+var mas2 = prompt('вторая строка: ', 1).toLowerCase().split('').sort().join();
 
 if (mas1 == mas2)
 {
