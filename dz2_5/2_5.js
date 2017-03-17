@@ -1,13 +1,10 @@
-function sum(a)
-{
+function sum(a) {
 	var cur = a;
-	function next(b)
-	{
+	function next(b) {
 		cur = cur + b;
 		return next;
 	}
-	next.toString = function ()
-	{
+	next.toString = function () {
 		return cur;
 	}
 	return next;
