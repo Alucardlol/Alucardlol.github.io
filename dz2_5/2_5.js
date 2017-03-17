@@ -1,6 +1,12 @@
 function sum(a) {
+	if (a === undefined) {
+			a = 0;
+		}
 	var cur = a;
 	function next(b) {
+		if (b === undefined) {
+			b = 0;
+		}
 		cur = cur + b;
 		return next;
 	}
